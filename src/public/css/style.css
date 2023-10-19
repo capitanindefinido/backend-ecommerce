@@ -1,10 +1,15 @@
 body{
-    background-color: 	#B5B2B2;
+    background-color: 	#ccc;
+}
+
+h1 {
+    color: #f8f991;
 }
 
 /* Estilo para el contenedor principal de productos */
 .product-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px; /* Espacio entre los productos */
@@ -12,13 +17,16 @@ body{
 
 /* Estilo para cada producto individual */
 .product {
+    display: flex;
+    flex-direction: column;
     width: 300px; /* Ancho del cuadro del producto */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #9ab87a;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    gap: 5px;
 }
 
 .product img {
